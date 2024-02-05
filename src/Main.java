@@ -50,10 +50,9 @@ public class Main {
 
         int childAge = 7;
 
-        boolean oneAdultParent = true;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему  нельзя кататься на аттракционе.");
-        } else if (childAge >= 5 && childAge <= 14 && oneAdultParent) {
+        } else if (childAge >= 5 && childAge <= 14) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе в сопровождении взрослых.");
         } else {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе без совпровождения взрослых.");
